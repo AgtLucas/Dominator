@@ -1,0 +1,19 @@
+{
+  "name": "Dominator",
+  "version": "1.0.0",
+  "description": "Let's FLUX!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/Dominator.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/Dominator/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/Dominator"
+}
