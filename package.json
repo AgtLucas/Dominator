@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/Dominator/issues"
   },
-  "homepage": "https://github.com/AgtLucas/Dominator"
+  "homepage": "https://github.com/AgtLucas/Dominator",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.10.4",
+    "express-state": "^1.2.0",
+    "flux-router-component": "^0.4.4",
+    "fluxible-app": "^0.1.2",
+    "fluxible-plugin-fetchr": "^0.1.2",
+    "fluxible-plugin-routr": "^0.2.1",
+    "lodash": "^2.4.1",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.1"
+  }
 }
