@@ -57,8 +57,19 @@ var Component = React.createClass({
             onChange={this.props.onToggle}
             disabled={this.props.disabled}
           />
-          <label onDoubleClick={this.handleEdit}></label>
+          <label onDoubleClick={this.handleEdit}>{this.props.todo.text}</label>
+          <button className="destroy"
+            onclick={this.props.onDestroy}
+            disabled={this.props.todo.failure}>
+          </button>
         </div>
+        <input className="edit"
+          ref="editField"
+          value={this.state.editText}
+          onBlur={this.handleSubmit}
+          onChange={this.handleChange}
+          oneKeyDown={this.handleKeyDown}
+        />
       </li>
     );
   }
