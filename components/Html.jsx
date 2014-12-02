@@ -1,3 +1,5 @@
+'use strict';
+
 // Require React
 var React = require('react');
 
